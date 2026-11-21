@@ -1,0 +1,17 @@
+task1:
+  weekday: 1
+  time: 4:00
+  worldid: world_nether
+  command:
+    '2': '/say second'
+    '1': '/mvunload world_nether'
+  delay-command:
+    time: 5m
+    command:
+      '1': '/say done {world}'
+
+legacy_stub:
+  weekday:
+  worldid:
+  command:
+    '1': '/mvunload 世界id'
